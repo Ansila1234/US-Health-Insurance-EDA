@@ -3,7 +3,7 @@
 This repository contains an exploratory data analysis (EDA) of a dataset related to health insurance in the United States. The goal of this project is to uncover insights about the factors that influence health insurance coverage, cost, and usage.
 ![health-insurance-img](https://github.com/user-attachments/assets/698bedf7-696b-4c6a-8a1e-34699b06be2b)
 
-# 1 Project Goals
+# 1. Project Goals
 Medical Insurance is a contract that requires an insurer to pay some or all of a person's healthcare costs in exchange for a premium, with the insurance typicallly pays for medical expenses incured by the insured. Insurance cost differs from each individual, certain variable may affect a person insurance cost to be higher or lower.
 
 This project will analyze medical insurance cost in a dataset and exploring variables that may affect it. Further, this project will showcase data analysis skills to provide meaningful insight.
@@ -37,12 +37,12 @@ Jupyter Notebook for running the analysis interactively
 ### 1.4 Importing the libraries :
 ![1](https://github.com/user-attachments/assets/8a01dbff-3d88-4536-b932-b3deca406c1b)
 
-# 2 Loading the data :
+# 2. Loading the data :
 ![2](https://github.com/user-attachments/assets/2fe8f374-827b-49e9-bec3-c2fb986210ee)
 
 ![3](https://github.com/user-attachments/assets/203613d2-459f-4033-b98e-03486d654770)
 
-# 3 Exploratory Data Analysis
+# 3. Exploratory Data Analysis
 
 ## 3.1 Shape:
 ![4](https://github.com/user-attachments/assets/355f36ca-c8ec-46c3-9903-c4cf56e4fa2f)
@@ -75,7 +75,14 @@ We observe that 'age'(int64), 'bmi'(float64) and 'charges'(float64) are numerica
 We observe that the 'children' column is being treated as an integer datatype, even though it contains categorical information.
 
 ![16](https://github.com/user-attachments/assets/58e8bd6d-b4e9-4a20-ae68-c53d9263a6a7)
+
 ![17](https://github.com/user-attachments/assets/d0217a61-d6f2-4753-aea6-d083bf92c561)
+
+### 3.3 Data Cleaning:
+Let's check if the DataFrame contains any missing or null values:
+
+![18](https://github.com/user-attachments/assets/d7b113f6-78d4-4415-a574-415dd2820720)
+
 
 
 
