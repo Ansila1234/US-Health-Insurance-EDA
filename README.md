@@ -8,7 +8,7 @@ Medical Insurance is a contract that requires an insurer to pay some or all of a
 
 This project will analyze medical insurance cost in a dataset and exploring variables that may affect it. Further, this project will showcase data analysis skills to provide meaningful insight.
 
-## 1.1 Dataset Overview :
+### 1.1 Dataset Overview :
 The dataset used in this analysis contains information about health insurance policies, coverage, premiums, and demographic details such as age, income, and region. The dataset was preprocessed and cleaned before performing the analysis.
 
 The dataset is obtained from Kaggle. The dataset consist of 7 columns:
@@ -22,7 +22,7 @@ The dataset is obtained from Kaggle. The dataset consist of 7 columns:
 + **region**: the beneficiary's residential area in the US; northeast, southeast, southwest, northwest.
 + **charges**: individual medical costs billed by health insurance, in USD
 
-## 1.2 Tools and Libraries :
+### 1.2 Tools and Libraries :
 The following tools and libraries were used in this project:
 
 + **Python**
@@ -31,10 +31,10 @@ The following tools and libraries were used in this project:
 + **Matplotlib** and **Seaborn** for data visualization
 Jupyter Notebook for running the analysis interactively
 
-## 1.3 Objectives :
+### 1.3 Objectives :
 + Exploratory Data Analysis and Data Visulaization
 
-## 1.4 Importing the libraries :
+### 1.4 Importing the libraries :
 ![1](https://github.com/user-attachments/assets/8a01dbff-3d88-4536-b932-b3deca406c1b)
 
 # 2 Loading the data :
@@ -44,12 +44,12 @@ Jupyter Notebook for running the analysis interactively
 
 # 3 Exploratory Data Analysis
 
-# 3.1 Shape:
+## 3.1 Shape:
 ![4](https://github.com/user-attachments/assets/355f36ca-c8ec-46c3-9903-c4cf56e4fa2f)
 
 ![5](https://github.com/user-attachments/assets/f63d7927-1291-4aaa-b78f-25202f25d0c2)
 
-# 3.2 Data Types:
+## 3.2 Data Types:
 ![6](https://github.com/user-attachments/assets/fbf6a666-c629-4eef-a61d-9685ecfbc380)
 
 ![7](https://github.com/user-attachments/assets/b12a4e12-91aa-404c-a20c-b6896e7f8f31)
