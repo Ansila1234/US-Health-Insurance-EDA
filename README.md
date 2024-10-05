@@ -98,6 +98,30 @@ Now let's study the 5-point summary and distribution of the numerical attributes
 + The cumulative frequency also corresponds to the density distribution, and indicates the central tendency of the data.
 
  ![20](https://github.com/user-attachments/assets/60711469-c731-4955-8568-11444379b383)
+
+ ![21](https://github.com/user-attachments/assets/379cc392-cbad-4cbd-9267-8b8304c3c470)
+
+ ## 3.4.1 Age Distribution:
+
+ ![22](https://github.com/user-attachments/assets/36dcb177-0562-462e-a1eb-6d02e6579e9a)
+
+ ![23](https://github.com/user-attachments/assets/4dca729f-1f9f-4062-a6bf-fd2cbb15bb39)
+
+ ![24](https://github.com/user-attachments/assets/6cde56b5-c27f-4b51-a70a-8f0c850132fe)
+
+ ![25](https://github.com/user-attachments/assets/066a6b33-8153-41ff-9be2-5e8fcfbf10ee)
+
+### Observations:
++ The Age of the insured approximately follow a uniform distribution with Mean of 39.2 and Median of 39.0, and with lowest age being 18 and highest being 64.
++ There are no outlier values in the Age distribution in the data.
+
+![26](https://github.com/user-attachments/assets/8934d601-4079-4bf7-892b-d8a5b5e70ea0)
+
+
+
+
+
+
  
 
 
