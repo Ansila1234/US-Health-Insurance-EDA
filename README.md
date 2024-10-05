@@ -83,6 +83,24 @@ Let's check if the DataFrame contains any missing or null values:
 
 ![18](https://github.com/user-attachments/assets/d7b113f6-78d4-4415-a574-415dd2820720)
 
+There are no missing data in the DataFrame.
+
+## 3.4 Summary and Distribution of numerical attributes:
+We can get an overview of the important statistics of the data through the describe() method:
+
+![19](https://github.com/user-attachments/assets/fa47c359-6373-4b19-bf18-eb95a497ac6c)
+
+Now let's study the 5-point summary and distribution of the numerical attributes: Age, BMI and Charges.
+
++ The Density plot gives an intuitive understanding of the underlying distribution of the attribute.
++ The Boxplot (or box-and-whisker plot) shows the distribution of quantitative data in a way that facilitates comparisons between variables or across levels (quantiles) of variable. The box shows the quartiles of the dataset while the whiskers extend to show the rest of the distribution, except for points that are determined to be “outliers” using a method that is a function of the inter-quartile range.
++ Unlike a box plot, in which all of the plot components correspond to actual datapoints, the violin plot features a kernel density estimation of the underlying distribution.
++ The cumulative frequency also corresponds to the density distribution, and indicates the central tendency of the data.
+
+ ![20](https://github.com/user-attachments/assets/60711469-c731-4955-8568-11444379b383)
+ 
+
+
 
 
 
