@@ -117,6 +117,174 @@ Now let's study the 5-point summary and distribution of the numerical attributes
 
 ![26](https://github.com/user-attachments/assets/8934d601-4079-4bf7-892b-d8a5b5e70ea0)
 
+## 3.4.2 BMI Distribution
+
+![27](https://github.com/user-attachments/assets/9b598a33-c547-4143-ab0b-6394ab11b14d)
+
+![28](https://github.com/user-attachments/assets/d93d0de1-767b-458f-8c84-4b5d42fd8df6)
+
+![29](https://github.com/user-attachments/assets/20242f33-b567-4302-ab57-e5424b59d575)
+
+![30](https://github.com/user-attachments/assets/24a02eef-0543-4d9d-9d26-ddb2484de7c2)
+
+![31](https://github.com/user-attachments/assets/099a97ec-4c16-438a-a98e-35702d03dbc5)
+
+![32](https://github.com/user-attachments/assets/64fbb29e-3d52-45be-8df8-cb2975ed791c)
+
+### Observations:
+
++ The BMI distribution of the Insured approximately follows a normal distribution with a Mean of 30.66 and Median of 30.4.
++ There are a total of 9 outlier values in the BMI distribution, all in the higher side. The highest BMI observed is 53.13.
++ The person with the highest BMI (least healthy, based on available data) is also one of the youngest (male, 18, non-smoker.) He is paying less premium than the mean, but significantly more than the median charges. This is in line with our basic understanding of underwriting rules.
+
+## 3.4.3 Charges Distribution:
+
+![33](https://github.com/user-attachments/assets/58745ba8-cd69-453a-9a16-7eea2e7d2e4b)
+
+![34](https://github.com/user-attachments/assets/d9570c2b-1e8c-4e7f-bc1f-b910e9a1e3ed)
+
+![35](https://github.com/user-attachments/assets/afd5a45c-25c2-46fc-a196-4e222e6edbff)
+
+![36](https://github.com/user-attachments/assets/e13eb543-c1e3-4ed5-aced-11faaac9fc78)
+
+![37](https://github.com/user-attachments/assets/9624bdd1-b9c2-4deb-87df-4365ddd6370d)
+
+![38](https://github.com/user-attachments/assets/7c3ca2fc-f267-49a8-b703-5a8366affd52)
+
+![39](https://github.com/user-attachments/assets/8dc7f7d3-f2be-4c18-93db-5a68aa920903)
+
+### Observations:
+
++ The Charges distribution of the Insured is heavily skewed to the left (median < mean) with a Mean of 13270.4223 and Median of 9382.033. The lowest charged amount is 1121.8739 and the highest charged amount is 63770.42801.
++ Out of a total of 1338 data points, there are a total of 139 outlier values in the distribution of charges, all in the higher side. The highest charges paid is 63770.42801.
++ The insured chared with highest premium is a 54 years old female smoker with relatively high BMI (indicating obesity).
++ The person with the highest BMI (obese, or least healthy, based on available data) is also one of the youngest (male, 18, non-smoker.) He is paying less premium charges than the mean(which, we note, is affected by extreme outlier values of charges like the person above), but significantly more than the median. This is in line with our basic understanding of underwriting rules.
+
+## 3.5 Summary and Distribution of categorical attributes:
+
+Let's explore the distribution of categorical variables:'sex','smoker','region' and 'children'.
+
+![40](https://github.com/user-attachments/assets/82fc73eb-da13-4a35-afe5-78f0bfb5f75a)
+
+## 3.5.1 Sex:
+
+![41](https://github.com/user-attachments/assets/b72cc301-9d93-4f50-92aa-d5d2acc937f1)
+
+![42](https://github.com/user-attachments/assets/254d5415-8338-46c3-8539-8f2bd203dd50)
+
+### Observations:
+The dataset is almost evenly distributed among genders, with 676 Males (50.5%) and 662 Fenales (49.5%).
+
+### 3.5.2 Smoker
+
+![43](https://github.com/user-attachments/assets/219b9a04-4b5d-4336-aa83-f3e8f594d0a6)
+
+![44](https://github.com/user-attachments/assets/59ef830e-d0d3-436c-99da-0fb332c15cc0)
+
+![45](https://github.com/user-attachments/assets/9f3e8dbf-0a8c-4719-854b-ee21c7a36284)
+
+![46](https://github.com/user-attachments/assets/7cd94bab-fee0-4efe-823a-f52f0a5654ab)
+
+![47](https://github.com/user-attachments/assets/3e846651-1ea2-4ee3-b951-cc36569993f0)
+
+![48](https://github.com/user-attachments/assets/61fa51c8-5cf5-4d32-940b-274f1ecf603d)
+
+![49](https://github.com/user-attachments/assets/8ddf578f-2250-4138-ae1f-6056e4264b50)
+
+### Observations:
++ Of the total 1338 insured, 274 (20.5%) are smokers and the rest are non-smokers.
++ Among 274 smokers, proportion of males (159) are higher than females (115).
++ The average insurance premium for smokers are significantly higher than non-smokers.
+
+## 3.5.3 Regions
+
+![50](https://github.com/user-attachments/assets/4fb8da86-a234-4de7-ac25-fa8cb8c25d5b)
+
+![51](https://github.com/user-attachments/assets/7b3f52ed-16d4-4b62-95cb-ee7d63fe13ff)
+
+### Observations:
++ All four regions are represented approximately evenly in the dataset.
+
+## Number of children
+
+![52](https://github.com/user-attachments/assets/505a8d55-ea58-4a1e-8672-54bf1ac6a6cb)
+
+![53](https://github.com/user-attachments/assets/bb14ccfe-e6d8-4bc3-ad52-3447dd79b0bb)
+
+![54](https://github.com/user-attachments/assets/bd3f734f-5bca-4126-b180-cb27f3c4bc76)
+
+### Observation:
++ In the dataset,approximately 85% (1138/1338) of the insured have less than 3 children.
+
+## Pairplot
+Let's plot pairwise relationships in our dataset through a pairplot. In order to show all columns in our pairplot, first let's convert all categorical attributes to their category codes. First we set the datatypes of all the categorical variables as category:
+
+![55](https://github.com/user-attachments/assets/ecf85de2-748b-4ca1-a455-2dafb36aa9e2)
+
+![56](https://github.com/user-attachments/assets/22483e2c-a15f-4e1b-9368-19de03b75e71)
+
+![57](https://github.com/user-attachments/assets/9c9e7e6e-be9a-4fb0-8af2-ed85bdb40c64)
+
+![58](https://github.com/user-attachments/assets/b6053d5b-8316-4968-bc51-8b4f4077b03a)
+
+![59](https://github.com/user-attachments/assets/fa868558-4501-46ed-b48f-392900607d99)
+
+![60](https://github.com/user-attachments/assets/8f687f6f-33b2-4a3b-8d90-ef174ea834f0)
+
+A particularly interesting relationship between insurance premium charges, BMI and smoking status(Smoker/Non-smoker) can be seen in this graph:
+
+![61](https://github.com/user-attachments/assets/10b67f3f-5182-4a28-971e-3ee447534332)
+
+![62](https://github.com/user-attachments/assets/458c34a2-08ee-4ba8-ae1d-efbcff2038b6)
+
+## 3.7 Correlation:
+Let's study the correlation between different attributes in our dataset.
+
+![63](https://github.com/user-attachments/assets/a9648de3-bfb7-4cff-92a7-018d7a655aa6)
+
+### Observations:
+From the correlation heatmap, we can conclude that the premium charges show a weak positive correlation with Age and BMI of the insured, and a strong positive correlation with smoking habit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
